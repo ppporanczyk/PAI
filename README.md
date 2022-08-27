@@ -1,7 +1,8 @@
 # PAI_BookWeb
 Projekt ma na celu stworzenie platformy do swobodnej wymiany opinii na temat księgozbioru, który jest mało dostępny, a co za tym idzie, trudno o pozyskanie recenzji czytelników na temat tych pozycji. Przykładową grupą odbiorców byliby designerzy UX/UI. Książki dostępne dla ludzi z tej branży zwykle nie są powszechnie dostępne w bibliotekach, brakuje rzetelnych opinii na stronach autorów, a ich koszty zakupu są bardzo wysokie. Aplikacja pozwoliłaby zasięgnąć opinii wśród bardziej doświadczonych kolegów z branży, a co za tym idzie, podjąć właściwy zakup. Oprócz recenzji opisowej zawarte jest podsumowanie  w postaci liczbowej (w skali 1-10), które składa się na średnia liczba ocen wszystkich recenzujących.
 Aplikacja oparta jest na strukturze MVC: posiada trzy modele (użytkownika, książki oraz recenzji), na których opiera się cały schemat bazy danych (patrz niżej), część backendowa pełni rolę kontrolera w komunikacji  na linii baza danych-widok, a frontendowa jest skupiona na interfejsie aplikacji. 
- image.png
+ ![image](https://user-images.githubusercontent.com/60820160/187030316-d67e72ac-d220-4046-b512-86a289778593.png)
+
 Projekt składa się de facto z dwóch aplikacji: backendowej (Node.js, express.js), która komunikuje się z bazą danych (SQLite) oraz frontendowej (React), która odpowiada za widok serwisu. Komunikacja pomiędzy nimi  (axios API) jest oparta na RESTowych żądaniach.
 [pogrubione żądania wymagają zalogowania się]
 Użytkownik:
